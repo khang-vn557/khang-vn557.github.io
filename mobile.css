@@ -1,0 +1,87 @@
+@media only screen and (max-width:377px) {
+   .omg{
+    margin-bottom: 0;
+    text-align: left;
+    color: #199cdb;
+    border: none;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    }
+    .omg div{
+        display: block;
+    }
+    .omg img{
+    display: none;
+    }
+    .omg .mid-img{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .thongtincanhan{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .grid-container .grid-it4 i{
+        margin-right: 30px;
+    }
+    .reward-layout .big-reward{
+        display: grid ;
+       grid-template-columns: auto;
+       padding-right: 20px;
+    }
+    .big-reward .reward{
+        display: flex;
+        flex-direction: column;
+    }
+    #re3{
+        display: flex;
+        flex-direction: column;
+    }
+    #re3 img{
+        height: 170px;
+        width: auto;
+        padding-right: 20px;
+    }
+    .big-reward img{
+        height: 150px;
+        width: 90%;
+        padding-right: 20px;
+        
+    }
+    #re1{
+        border-bottom: 1px solid #d6c08d;
+    }
+    .project-col{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .grid-container h2:hover .button{
+        display: block;
+    }
+    .grid-container .close{
+        display: none;
+    }
+    .grid-container #hi1:hover .close{
+       display: block; 
+    }
+    .grid-container #hi2:hover .close{
+        display: block;
+    }
+    .grid-container #hi3:hover .close{
+        display: block;
+    }
+    .grid-container #hi4:hover .close{
+        display: block;
+    }
+    .grid-container #hi5:hover .close{
+        display: block;
+    }
+    .grid-container #hi6:hover .close{
+        display: block;
+    }
+}

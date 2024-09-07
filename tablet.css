@@ -1,0 +1,40 @@
+@media only screen and (max-width: 992px) and (min-width:378px) {
+    .omg{
+        margin-bottom: 0;
+    }
+    .omg img{
+        display: none;
+    }
+    .omg .mid-img{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        gap: 20px;
+    }
+    .big-reward .reward{
+        display: flex;
+        flex-direction: column;
+    }
+    #re3{
+        display: flex;
+        flex-direction: column;
+    }
+    #re3 img{
+        height: 170px;
+        width: 360px;
+        padding-right: 20px;
+    }
+    .big-reward img{
+        height: 170px;
+        width: auto;
+        padding-right: 20px;
+        
+    }
+
+}
